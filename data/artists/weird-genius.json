@@ -1,0 +1,118 @@
+{
+  "slug": "weird-genius",
+  "name": "Weird Genius",
+  "type": "group",
+  "country": "ID",
+  "origin_city": "Jakarta",
+  "formed_year": 2016,
+  "disbanded_year": null,
+  "debut": {
+    "year": 2017,
+    "single": "DPS"
+  },
+  "genres": [
+    "edm",
+    "synth-pop",
+    "pop"
+  ],
+  "labels": [
+    "Astralwerks",
+    "Universal Music Group",
+    "Barong Family",
+    "Monstercat"
+  ],
+  "bio": {
+    "id": "Weird Genius adalah grup produser dan DJ asal Jakarta yang dibentuk pada 2016 dan merilis single debut \"DPS\" pada 2017. Mereka dikenal memadukan EDM dan synth-pop dengan unsur musik tradisional Indonesia. Pada Agustus 2020 mereka menjadi artis pertama dari Asia yang diteken label Astralwerks (Universal Music Group). Lagu \"Lathi\" bersama Sara Fajira memenangkan kategori Best of the Best Production Work di Anugerah Musik Indonesia ke-23.",
+    "en": "Weird Genius is a Jakarta-based DJ and production group formed in 2016, whose debut single \"DPS\" came out in 2017. They blend EDM and synth-pop with traditional Indonesian sounds. In August 2020 they became the first Asian act signed to Astralwerks (Universal Music Group). Their song \"Lathi\" with Sara Fajira won Best of the Best Production Work at the 23rd Anugerah Musik Indonesia."
+  },
+  "members": [
+    {
+      "name": "Reza Oktovian",
+      "role": "Founder",
+      "birth_date": "1987-10-15",
+      "years": "2016–sekarang",
+      "status": "current"
+    },
+    {
+      "name": "Eka Gustiwana",
+      "role": "Producer / DJ",
+      "years": "2016–sekarang",
+      "status": "current"
+    },
+    {
+      "name": "Roy Leonard Soewarno",
+      "alias": "Roycdc",
+      "role": "Producer / DJ",
+      "years": "2023–sekarang",
+      "status": "current"
+    },
+    {
+      "name": "Billy Taner",
+      "role": "Producer / DJ",
+      "birth_date": "1994-03-10",
+      "years": "2016–2019",
+      "status": "former"
+    },
+    {
+      "name": "Gerald Liu",
+      "role": "Producer / DJ",
+      "birth_date": "1996-02-10",
+      "years": "2019–2023",
+      "status": "former"
+    }
+  ],
+  "awards": [
+    {
+      "year": 2019,
+      "event": "Paranoia Awards 2019",
+      "category": "Duo/Group DJ of the Year",
+      "result": "won"
+    },
+    {
+      "year": 2020,
+      "event": "23rd Anugerah Musik Indonesia",
+      "category": "Best of the Best Production Work",
+      "work": "Lathi",
+      "result": "won"
+    }
+  ],
+  "links": {
+    "website": "https://weirdgenius.id",
+    "instagram": "weird.genius",
+    "youtube": "Weird Genius"
+  },
+  "image": null,
+  "albums": [
+    "album-weird-genius"
+  ],
+  "songs": [
+    "bass-and-thrill",
+    "beg-u",
+    "blow-your-whistle",
+    "dps",
+    "escape",
+    "future-ghost",
+    "heal",
+    "hush",
+    "last-dance",
+    "last-summer",
+    "lathi",
+    "peanut-butter",
+    "sweet-scar",
+    "velvet-thorns",
+    "witch-hunt",
+    "your-side"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Weird_Genius",
+    "https://www.thejakartapost.com/life/2020/08/19/weird-genius-signs-with-astralwerks-label.html",
+    "https://www.jpnn.com/news/10-tahun-weird-genius-akhirnya-punya-album",
+    "https://music.apple.com/us/artist/weird-genius/1465964568"
+  ],
+  "updated": "2026-10-29",
+  "debut_album": {
+    "title": "ALBUM.",
+    "year": 2026,
+    "slug": "album-weird-genius"
+  }
+}

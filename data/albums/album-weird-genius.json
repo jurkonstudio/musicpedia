@@ -1,0 +1,19 @@
+{
+  "slug": "album-weird-genius",
+  "title": "ALBUM.",
+  "artist": "Weird Genius",
+  "artistSlug": "weird-genius",
+  "album_type": "album",
+  "year": 2026,
+  "release_date": null,
+  "announced": "2026-10-28",
+  "note": "Album studio perdana Weird Genius setelah satu dekade merilis single. Tanggal rilis dan daftar lagu belum ditemukan di sumber.",
+  "tracklist": [],
+  "label": null,
+  "cover": null,
+  "status": "draft",
+  "sources": [
+    "https://www.jpnn.com/news/10-tahun-weird-genius-akhirnya-punya-album"
+  ],
+  "updated": "2026-10-29"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "lathi",
+  "title": "Lathi",
+  "artist": "Weird Genius",
+  "artistSlug": "weird-genius",
+  "featuring": [
+    "Sara Fajira"
+  ],
+  "year": 2020,
+  "country": "ID",
+  "album": null,
+  "genres": [
+    "edm"
+  ],
+  "original_lang": "en",
+  "youtube_id": null,
+  "spotify_id": null,
+  "chord": {
+    "available": false,
+    "original_key": null,
+    "capo": 0,
+    "content": ""
+  },
+  "lyrics": {
+    "original": "",
+    "translations": {
+      "id": ""
+    }
+  },
+  "status": "draft",
+  "updated": "2026-10-29",
+  "release_date": "2020-02-28"
+}
