@@ -1,0 +1,32 @@
+name: Sync Supabase
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ambil data
+        env:
+          URL: ${{ secrets.SUPABASE_URL }}
+          KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          mkdir -p data/export
+          H1="apikey: $KEY"; H2="Authorization: Bearer $KEY"
+          for t in artists albums trending_snapshots; do
+            curl -sf "$URL/rest/v1/$t?select=*" -H "$H1" -H "$H2" -o data/export/$t.json
+          done
+          for t in songs posts; do
+            curl -sf "$URL/rest/v1/$t?select=*&status=eq.published" -H "$H1" -H "$H2" -o data/export/$t.json
+          done
+      - name: Simpan
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/export
+          git diff --cached --quiet || git commit -m "Sync data Supabase"
+          git push
